@@ -23,7 +23,7 @@ rust_library {
     host_supported: true,
     crate_name: "shared_child",
     srcs: ["src/lib.rs"],
-    edition: "2015",
+    edition: "2018",
     rustlibs: [
         "liblibc",
     ],
@@ -39,7 +39,7 @@ rust_defaults {
     srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
-    edition: "2015",
+    edition: "2018",
     rustlibs: [
         "liblibc",
     ],
@@ -59,4 +59,4 @@ rust_test {
 }
 
 // dependent_library ["feature_list"]
-//   libc-0.2.92 "default,std"
+//   libc-0.2.93 "default,std"
