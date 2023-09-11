@@ -37,21 +37,3 @@ rust_library {
     product_available: true,
     vendor_available: true,
 }
-
-rust_test {
-    name: "shared_child_test_src_lib",
-    host_supported: true,
-    crate_name: "shared_child",
-    cargo_env_compat: true,
-    cargo_pkg_version: "1.0.0",
-    srcs: ["src/lib.rs"],
-    test_suites: ["general-tests"],
-    auto_gen_config: true,
-    test_options: {
-        unit_test: true,
-    },
-    edition: "2018",
-    rustlibs: [
-        "liblibc",
-    ],
-}
