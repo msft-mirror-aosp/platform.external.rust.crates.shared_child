@@ -7,15 +7,5 @@
     {
       "path": "packages/modules/Virtualization/vm"
     }
-  ],
-  "presubmit": [
-    {
-      "name": "shared_child_test_src_lib"
-    }
-  ],
-  "presubmit-rust": [
-    {
-      "name": "shared_child_test_src_lib"
-    }
   ]
 }
